@@ -1,2 +1,0 @@
-/api/*  https://devcdp.aicreate360.com/:splat  200!
-/:tid/api/*  https://devcdp.aicreate360.com/:tid/api/:splat  200!
