@@ -1,9 +1,9 @@
 [[redirects]]
-    from = "/api"
-    to = "https://devcdp.aicreate360.com/api"
+    from = "/api/*"
+    to = "https://devcdp.aicreate360.com/api/:splat"
     status = 200
 
 [[redirects]]
-    from = "/:tid/api"
-    to = "https://devcdp.aicreate360.com/:tid/api"
+    from = "/:tid/api/*"
+    to = "https://devcdp.aicreate360.com/:tid/api/:splat"
     status = 200
